@@ -46,7 +46,7 @@ var adsGame =
             chooseLanguage("english"); 
         }
         
-		//Inicializar resoluï¿½ï¿½o e teste se browser suporta o jogo
+		//Inicializar resolução e teste se browser suporta o jogo
 		if( !me.video.init('adsGame',ads_width,ads_height,true,1.0,false) ){
 			alert( language.system.TRbrowserInf );
 			return;
