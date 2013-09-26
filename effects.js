@@ -27,7 +27,6 @@ SOFTWARE.
 // myFunc - Function when animation is over
 // self - Object where the animation is called
 
-
 var effect = me.AnimationSheet.extend({
     init: function(x, y, effectImage, spritewidth, spriteheight , animation , speed, repeat, wait, myFunc, self) {
 
